@@ -79,7 +79,7 @@ class ISEAPI:
         url = "https://" + str(self.getiseip()) + ":9060" + str(uri)
         payload = {}
         resp = self.apicall("GET", url, json.dumps(payload))
-        if resp.status_code == 201:
+        if resp.status_code == 200:
             logger.info("All Endpoints are  Fetched Successfully. For more Details -----> \n {}".format(resp.text))
         else:
             logger.error("Issue with Deleting Endpoint. For more Details, Response from ISE was --->\n {}".format(resp.text))
