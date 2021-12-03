@@ -1,4 +1,5 @@
 # ISEEndpointUpdate
+
 Python Repository to Interact with Cisco ISE
 
 This is a simple python script to demonstrate Automation capabilities in Cisco Identity Services Engine.
@@ -6,6 +7,7 @@ This is a simple python script to demonstrate Automation capabilities in Cisco I
 This is a class based implementation which can be further extended as per the need of the user.
 
 #Usecase
+
 Currently the code in this repo will perform following operation
 1. Fetch list of all Endpoints.
 2. Add Endpoint to Cisco ISE
@@ -15,6 +17,7 @@ Currently the code in this repo will perform following operation
 Please Note: To create single Endpoint in Cisco ISE use file "endpoint.json", should you need to add endpoint in bulk you can use bulkendpoint.xml. {Currently JSON support for Bulk Endpoint upload does not work properly}
 
 #Usage
+
 To use the code.
 1. Clone the repo in local system.
 2. Modify the file config.py as per local details given in config.py
@@ -23,4 +26,5 @@ To use the code.
 5. Run the script python3 ISE.py
 
 #Developer 
+
 Madhuri Dewangan
